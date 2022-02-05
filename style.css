@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  padding: 18px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f1f3f5;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 12px 24px;
+}
+h2 {
+  color: #adb5bd;
+}
+.btn {
+  padding: 12px 18px;
+  background-color: #5c7cfa;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+  padding: 24px;
+  gap: 5px;
+  border-radius: 5px;
+}
+.text-area {
+  width: 90%;
+  border: 1px solid #adb5bd;
+}
+/************/
+
+.flash-container {
+  background-color: #f1f3f5;
+  padding: 50px;
+}
+.flashcards {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 16px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.flashcard {
+  width: 350px;
+  height: 200px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.flashcard-title {
+  font-size: 16px;
+}
+.flashcard-message {
+  font-size: 16px;
+}
+.display {
+  display: none;
+}
